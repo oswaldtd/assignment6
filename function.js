@@ -25,8 +25,7 @@
 // parameters and returns the sum of those 2 numbers.
 
 var sum = function (x, y){
-  var val = x + y;
-  console.log(val);
+  return x + y;
 };
 
 
@@ -35,8 +34,7 @@ var sum = function (x, y){
 // and returns the average of those 3 numbers.
 
 var avg = function (x, y, z){
-  var val = (x + y + z) / 7;
-  console.log(val)
+  var val = (x + y + z) / 3;
 };
 
 
