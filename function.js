@@ -34,7 +34,7 @@ var sum = function (x, y){
 // and returns the average of those 3 numbers.
 
 var avg = function (x, y, z){
-  var val = (x + y + z) / 3;
+  return = (x + y + z) / 3;
 };
 
 
@@ -55,12 +55,16 @@ function getLength(string)
 // the function should return `false`.
 
 var greaterThan = function(x, y){
-  if(x < y){
-    return "True";
+  if(x > y){
+    return true;
   }else{
-    return "False";
+    return false;
   }
 };
+
+var greaterThan = function(x, y){
+  return x > y
+}
 
 
 // Q5
@@ -70,7 +74,7 @@ var greaterThan = function(x, y){
 // is the parameter that was passed in.
 
 var greet = function(name){
-  console.log("Hello, " + name + " !");
+  return 'Hello, ' + name + "!";
 };
 
 
@@ -86,7 +90,7 @@ var greet = function(name){
 // sentence: "quick brown fox jumps over the fence"
 
 var madLib = function(music, hits, feel, pain){
-  console.log("One good thing about " + music + ", when it " + hits + " you ,you " + feel + " no " + pain);
+  return "One good thing about " + music + ", when it " + hits + " you ,you " + feel + " no " + pain;
 };
 
 
