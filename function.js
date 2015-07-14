@@ -45,7 +45,7 @@ function getLength(string)
   return string.length
 };
 
-getLength ()
+
 
 // Q4
 // Write a function called `greaterThan` that takes
